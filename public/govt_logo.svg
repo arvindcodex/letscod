@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b8860b" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#8b6508" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="#ffffff" stroke="url(#goldGrad)" stroke-width="4" />
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#1a3a6b" stroke-width="1.5" stroke-dasharray="4,2" />
+  <g transform="translate(100, 75) scale(0.65)" text-anchor="middle">
+    <rect x="-45" y="45" width="90" height="12" rx="3" fill="url(#goldGrad)" />
+    <circle cx="0" cy="30" r="16" fill="none" stroke="#000080" stroke-width="2.5" />
+    <circle cx="0" cy="30" r="4" fill="#000080" />
+    <path d="M0,14 L0,46 M-16,30 L16,30 M-11,19 L11,41 M-11,41 L11,19 M-15,22 L15,38 M-15,38 L15,22" stroke="#000080" stroke-width="1.2" />
+    <path d="M-38,36 C-30,30 -22,38 -18,44 L-42,44 Z" fill="#b8860b" />
+    <path d="M38,36 C30,30 22,38 18,44 L42,44 Z" fill="#b8860b" />
+    <path d="M-18,-45 C-24,-40 -20,-20 -22,-5 C-20,10 -15,25 0,25 C15,25 20,10 22,-5 C20,-20 24,-40 18,-45 C12,-50 5,-52 0,-52 C-5,-52 -12,-50 -18,-45 Z" fill="url(#goldGrad)" />
+    <path d="M-22,-30 C-36,-35 -42,-15 -35,5 C-30,15 -20,20 -15,25" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+    <circle cx="-32" cy="-18" r="4" fill="#8b6508" />
+    <path d="M22,-30 C36,-35 42,-15 35,5 C30,15 20,20 15,25" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+    <circle cx="32" cy="-18" r="4" fill="#8b6508" />
+    <circle cx="-6" cy="-28" r="3" fill="#8b6508" />
+    <circle cx="6" cy="-28" r="3" fill="#8b6508" />
+    <polygon points="0,-18 -4,-12 4,-12" fill="#8b6508" />
+  </g>
+  <text x="100" y="132" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="11" font-weight="900" fill="#1a3a6b" text-anchor="middle" letter-spacing="0.5">सत्यमेव जयते</text>
+  <text x="100" y="148" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="9" font-weight="800" fill="#222" text-anchor="middle" letter-spacing="1">GOVT. OF INDIA</text>
+  <text x="100" y="162" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#059669" text-anchor="middle" letter-spacing="1.5">RECOGNIZED ENTITY</text>
+</svg>

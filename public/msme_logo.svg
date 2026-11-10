@@ -1,0 +1,28 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="msmeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d47a1" />
+      <stop offset="100%" stop-color="#1565c0" />
+    </linearGradient>
+    <linearGradient id="msmeOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e65100" />
+      <stop offset="100%" stop-color="#f57c00" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="#ffffff" stroke="#1565c0" stroke-width="4" />
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#e65100" stroke-width="1.5" stroke-dasharray="4,2" />
+
+  <!-- MSME emblem graphic (3 interconnected gears/people petals) -->
+  <g transform="translate(100, 78)">
+    <circle cx="0" cy="-20" r="14" fill="url(#msmeOrange)" />
+    <circle cx="-22" cy="14" r="14" fill="url(#msmeBlue)" />
+    <circle cx="22" cy="14" r="14" fill="#2e7d32" />
+    <circle cx="0" cy="0" r="8" fill="#ffffff" />
+    <circle cx="0" cy="0" r="4" fill="#0d47a1" />
+  </g>
+
+  <!-- MSME Text -->
+  <text x="100" y="132" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="16" font-weight="900" fill="#0d47a1" text-anchor="middle" letter-spacing="2">MSME</text>
+  <text x="100" y="148" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="7" font-weight="700" fill="#444" text-anchor="middle" letter-spacing="0.5">MINISTRY OF MSME</text>
+  <text x="100" y="162" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#e65100" text-anchor="middle" letter-spacing="1">GOVT. OF INDIA</text>
+</svg>
